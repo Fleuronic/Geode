@@ -1,0 +1,9 @@
+[submodule "GeodeAPI"]
+	path = Submodules/GeodeAPI
+	url = https://github.com/Fleuronic/GeodeAPI
+[submodule "GeodeDatabase"]
+	path = Submodules/GeodeDatabase
+	url = https://github.com/Fleuronic/GeodeDatabase
+[submodule "GeodeService"]
+	path = Submodules/GeodeService
+	url = https://github.com/Fleuronic/GeodeService
