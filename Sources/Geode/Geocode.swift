@@ -2,4 +2,6 @@
 
 import InitMacro
 
-@Init public struct Geocode {}
+@Init public struct Geocode {
+	public let formattedAddress: String
+}
