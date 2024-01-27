@@ -4,4 +4,5 @@ import InitMacro
 
 @Init public struct Geocode {
 	public let formattedAddress: String
+	public let geometry: Geometry
 }
