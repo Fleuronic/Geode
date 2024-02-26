@@ -1,11 +1,9 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-public extension Geocode {
-	struct Geometry {
-		public let location: Location
+import InitMacro
 
-		public init(location: Location) {
-			self.location = location
-		}
+public extension Geocode {
+	@Init struct Geometry {
+		public let location: Location
 	}
 }
